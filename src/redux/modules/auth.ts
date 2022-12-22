@@ -44,3 +44,7 @@ const reducer = handleActions<AuthState, string>(
 );
 
 export default reducer;
+
+// saga
+
+export function* authSaga() {}
